@@ -105,6 +105,27 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    public void inreaseScore(View view){
+        number++;
+        scoreText.setText("Score: " + number);
+    }
 
+    public void hideImages() {
+        handler =new Handler();
+        runnable = new Runnable() {
+            @Override
+            public void run() {
+                for (ImageView imageView : imageArray) {
+                    imageView.setVisibility(View.INVISIBLE);
+
+                    Random random = new Random();
+                    int i = random.nextInt(9);
+                    imageArray[i].setVisibility(View.VISIBLE);
+                    handler.postDelayed(this, 500);
+                }
+            }
+        };
+        handler.post(runnable);
+    }
 
 }
