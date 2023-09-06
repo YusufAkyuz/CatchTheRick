@@ -36,7 +36,7 @@
             app:srcCompat="@drawable/rick" />
 
         <ImageView
-            android:id="@+id/imageViev3"
+            android:id="@+id/imageView3"
             android:layout_width="100dp"
             android:layout_height="120dp"
             android:onClick="inreaseScore"
@@ -54,7 +54,7 @@
             app:srcCompat="@drawable/rick" />
 
         <ImageView
-            android:id="@+id/imageViev5"
+            android:id="@+id/imageView5"
             android:layout_width="100dp"
             android:layout_height="120dp"
             android:onClick="inreaseScore"
@@ -63,7 +63,7 @@
             app:srcCompat="@drawable/rick" />
 
         <ImageView
-            android:id="@+id/imageViev6"
+            android:id="@+id/imageView6"
             android:layout_width="100dp"
             android:layout_height="120dp"
             android:onClick="inreaseScore"
@@ -81,7 +81,7 @@
             app:srcCompat="@drawable/rick" />
 
         <ImageView
-            android:id="@+id/imageViev8"
+            android:id="@+id/imageView8"
             android:layout_width="100dp"
             android:layout_height="120dp"
             android:onClick="inreaseScore"
@@ -90,7 +90,7 @@
             app:srcCompat="@drawable/rick" />
 
         <ImageView
-            android:id="@+id/imageViev9"
+            android:id="@+id/imageView9"
             android:layout_width="100dp"
             android:layout_height="120dp"
             android:onClick="inreaseScore"
